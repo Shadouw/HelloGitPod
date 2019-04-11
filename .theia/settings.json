@@ -1,0 +1,8 @@
+{
+   "cpp.buildConfigurations": [
+      {
+         "name": "Debug",
+         "directory": "/build"
+      }
+   ]
+}
