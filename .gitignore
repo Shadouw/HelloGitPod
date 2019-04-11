@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# cmakes build folder
+*/build/*
+build/*
+
+# Code::Blocks layout files
+*.workspace
+*.workspace.layout
