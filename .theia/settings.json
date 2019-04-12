@@ -4,5 +4,8 @@
          "name": "Debug",
          "directory": "/build"
       }
-   ]
+   ],
+   "cpp.clangdArgs": "--background-index",
+   "cpp.clangTidy": true,
+   "cpp.clangTidyChecks": "*,-readability-*"
 }
