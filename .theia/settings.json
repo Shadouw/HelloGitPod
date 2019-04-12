@@ -7,5 +7,5 @@
    ],
    "cpp.clangdArgs": "--background-index",
    "cpp.clangTidy": true,
-   "cpp.clangTidyChecks": "*,-readability-*"
+   "cpp.clangTidyChecks": "*"
 }
