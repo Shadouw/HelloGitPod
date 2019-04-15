@@ -2,10 +2,12 @@
    "cpp.buildConfigurations": [
       {
          "name": "Debug",
-         "directory": "/build"
+         "directory": "/workspace/HelloGitPod/build"
       }
    ],
    "cpp.clangdArgs": "--background-index",
+   "cpp.clangdExecutable": "/usr/bin/clangd",
    "cpp.clangTidy": true,
-   "cpp.clangTidyChecks": "*"
+   "cpp.clangTidyChecks": "*",
+   "cpp.trace.server": "verbose"
 }
