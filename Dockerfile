@@ -9,7 +9,7 @@ USER root
 
 ### C/C++ ###
 RUN curl -fsSL https://apt.llvm.org/llvm-snapshot.gpg.key | apt-key add - \
-    && apt-add-repository -yu "deb http://apt.llvm.org/cosmic/ llvm-toolchain-cosmic-9.0 main" \
+    && apt-add-repository -yu "deb http://apt.llvm.org/cosmic/ llvm-toolchain-cosmic-9 main" \
     && apt-get install -yq \
         clang-format-9.0 \
         clang-tools-9.0 \
