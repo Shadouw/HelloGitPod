@@ -1,5 +1,5 @@
-image:
-    file: Dockerfile
+image: gitpod/workspace-full
+#    file: Dockerfile
 tasks:
 - init: >
     mkdir \build &&
