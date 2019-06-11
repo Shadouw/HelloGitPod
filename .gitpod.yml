@@ -1,4 +1,4 @@
-image: gitpod/workspace-full
+# image: gitpod/workspace-full
 tasks:
 - init: >
     mkdir \build &&
