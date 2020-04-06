@@ -1,6 +1,4 @@
 tasks:
 - init: >
-    mkdir \build &&
-    cd \build &&
-    cmake -D CMAKE_EXPORT_COMPILE_COMMANDS=ON .. &&
+    cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=ON &&
     make
