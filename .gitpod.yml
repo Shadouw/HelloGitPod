@@ -1,4 +1,5 @@
 tasks:
-- init: >
-    cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=ON &&
+- init:
+    sudo apt install cmake
+    cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
     cmake --build build --target all 
