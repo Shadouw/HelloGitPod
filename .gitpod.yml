@@ -1,6 +1,6 @@
 tasks:
 - before:
-    sudo apt install cmake
+    sudo apt -y install cmake
 - init:
     cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=ON &&
     cmake --build build --target all 
